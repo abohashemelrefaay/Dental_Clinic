@@ -1,0 +1,77 @@
+.about_us_cover{
+  display:grid;
+  grid-template-rows: 1fr 10px 4fr;
+}
+
+.Dental_cleaner{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.Dental_cleaner .cleaner img{
+  width: 35px;
+  margin: 0px 0px -74px 0;
+}
+.Dental_cleaner .cleaner h6{
+  margin: 25px 41px -10px;
+  
+}
+.Dental_cleaner .cleaner p{
+  margin: 12px 0px 0px 40px;
+  font-weight: bold;
+}
+
+
+hr{
+width: 50%;
+border-radius: 50%;
+margin: 40px 0 0 246px;
+}
+
+
+
+.cov_text_image {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top:80px ;
+  position: relative;
+}
+.cov_text_image img{
+width: 65%;
+margin-top: 30px;
+}
+.cov_image{
+  text-align: center;
+  
+}
+.cov_text_image .cov_image::after{
+  content: "";
+  width: 15%;
+  height: 50%;
+  background: #1a161600;
+  position: absolute;
+  left: 74px;
+  top: 83px;
+  z-index: -1;
+  border: 25px solid ;
+  border-color: #01a998 transparent transparent #01a998;
+}
+.cov_text_image .text h5{
+color: #01a998;
+}
+.cov_text_image .text p{
+font-weight: 100;
+}
+.cov_text_image .features {
+display: grid;
+}
+.cov_text_image .features i {
+  color: #01a998;
+  margin-right: 4px;
+}
+
+
+
+
+
+
+

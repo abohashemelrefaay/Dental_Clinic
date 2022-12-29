@@ -1,0 +1,42 @@
+
+.services{
+text-align: center;
+background-color: #f4f8fb;
+padding-top: 20px;
+}
+.services h4{
+color: #01a998  ;
+}
+.services h1{
+
+}
+
+.service{
+  float: left;
+  width: calc( 86% /3);
+  text-align: end;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 12px;
+  height: 250px;
+  
+}
+
+.service img{
+  width: 30px;
+  margin: 20px 80% 0 0;
+  
+}
+.service h3{
+  margin: 2px 0 0px -95px;
+  width: 80%;
+}
+.service p{
+  margin: 9px 0 0 38px;
+width: 85%;
+text-align: start;
+}
+.service h6{
+  margin: 13px 70% 15px 0;
+}
+
