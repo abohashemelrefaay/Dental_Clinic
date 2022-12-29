@@ -1,7 +1,4 @@
-.home{
-position: relative;
-margin: -55px 0 0 0;
-}
+
 .home::after{
   content: "";
   width: 50%;

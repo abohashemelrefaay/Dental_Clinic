@@ -1,9 +1,4 @@
-.navbar .navcover{
-  position: relative;
-  z-index: 2;
-  }
-
-.navbar .navcover{
+.navcover{
   display: grid;
   grid-template-columns: 15% 60% 15%;
 
