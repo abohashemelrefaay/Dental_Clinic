@@ -1,37 +1,84 @@
-
-
-
-
-
-.navbar{
-display: block;
+.navbar {
+  display: block;
 }
-.nav_cover{
+
+.nav_cover {
   display: grid;
   grid-template-columns: 1fr 5fr 2fr;
 }
-.logo{
+
+.logo {
   color: green;
   margin: auto;
 }
-.links{
-  display:flex;
+
+.links {
+  display: flex;
 }
-li{
+.icon {
+  width: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  position: absolute;
+  left: 83%;
+  top: 18px;
+  display: none;
+  cursor: pointer;
+
+}
+.icon:hover span:nth-child(2) {
+  width: 100%;
+  transition: .5s;
+}
+
+
+
+
+.icon span {
+  background-color: #333;
+  margin-bottom: 5px;
+  height: 2px;
+}
+
+.icon span:first-child {
+  width: 100%;
+}
+
+.icon span:nth-child(2) {
+  width: 60%;
+}
+
+.icon span:nth-child(3) {
+  width: 100%;
+}
+
+
+
+
+li {
   list-style: none;
   margin: 0 12px 0 0;
 }
-a{
-  color: black;
-  text-decoration: none;
+
+a {
+
+  display: block;
+padding: 15px;
+text-decoration: none;
+color: #333;
+transition: .5s;
 }
-a:hover{
+
+a:hover {
   color: green;
 }
-.login{
-  display:flex;
+
+.login {
+  display: flex;
 }
-.login_submit{
+
+.login_submit {
   width: 110px;
   height: 40px;
   margin: 10px 3px auto;
@@ -41,20 +88,57 @@ a:hover{
   cursor: pointer;
   border: 1px solid #0000001a;
 }
-.login_submit[type=submit]:focus{
-  border: 0 ;
+
+.login_submit[type=submit]:focus {
+  border: 0;
 }
-.login_submit:nth-child(1){
+
+.login_submit:nth-child(1) {
   background-color: #fff;
   color: black;
 }
-.login_submit:nth-child(1):hover{
+
+.login_submit:nth-child(1):hover {
   color: #fff;
   background-color: #01a998;
 }
+@media(max-width:920px) {
+  .links{
+    display: none;
+    transition: 4s;
+  }
+  .newclass {
+    display: block;
+    position: absolute;
+    left: 58%;
+    top: 30px;
+    background: transparent;
+    
+  }
+  .icon{
+    display: inline-flex;
+  }
+  .icon:hover .links {
+    display: block;
+    }
+    li{
+      width: 180px;
+      margin-top: 2px;
+      background-color: #01a998;
+      height: 30px;
+      border-radius: 13px;
+      text-align: center;
+    }
+    li:hover{
+      margin-top: 5px;
+      height: 34px;
+      transition: 1s;
+    }
+    a {
+      color:#fff;
+      line-height:0px
+      
+    }
 
 
-
-
-
-
+}
