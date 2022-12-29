@@ -16,7 +16,7 @@ axios.get("data/data.json").then((res)=>setsercices(res.data.services))
       {services.map((service , i)=>{
           return(
     <div className="service" key={i}>
-        <img src={service.image}/>
+        <img src={service.image} alt="" />
         <h3>{service.h3}</h3>
         <p>{service.p}</p>
         <h6>{service.h6}</h6>
