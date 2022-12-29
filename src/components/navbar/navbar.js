@@ -6,6 +6,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="container">
         <div className="nav_cover">
+          <div className="cover">
           <div className="logo">OralForm</div>
           <ul className="links">
             <li>
@@ -38,6 +39,7 @@ const Navbar = () => {
               value="Login as Dentist"
             />
           </form>
+        </div>
         </div>
       </div>
     </div>
