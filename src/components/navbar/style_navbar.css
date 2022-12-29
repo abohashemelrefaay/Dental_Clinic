@@ -1,16 +1,19 @@
-.navbar .container{
-  display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
-
+.navbar{
+  overflow: hidden;
 }
 .logo{
-  color: #01a998;
+  float:left ;
+  width: calc(95%/8);
+  color: green;
   margin: auto;
   font-size: 35px;
   font-weight: bold;
 }
 .links{
+  float:left ;
+  width: calc(95%/2);
   display:flex;
+  margin: 16px 0 0 48px;
 }
 li{
   list-style: none;
@@ -19,11 +22,14 @@ li{
 a{
   color: black;
   text-decoration: none;
+  font-size: 15px;
 }
 a:hover{
-  color: #01a998;
+  color: green;
 }
 .login{
+  float:left ;
+  width: 50px;
   display:flex;
 }
 .login_submit{

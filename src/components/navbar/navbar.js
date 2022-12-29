@@ -5,6 +5,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="container">
+        <div className="nav_cover">
           <div className="logo">OralForm</div>
           <ul className="links">
             <li>
@@ -23,7 +24,7 @@ const Navbar = () => {
               <a href="/Contact">Contact</a>
             </li>
           </ul>
-          <form className="login">
+           <form className="login">
             <input
               type="submit"
               onClick={(o) => o.preventDefault()}
@@ -37,6 +38,7 @@ const Navbar = () => {
               value="Login as Dentist"
             />
           </form>
+        </div>
       </div>
     </div>
   );
