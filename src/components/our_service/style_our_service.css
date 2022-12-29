@@ -16,6 +16,7 @@ color: #01a998  ;
   background-color: #fff;
   border-radius: 12px;
   height: 250px;
+  text-align: center;
   
 }
 
@@ -36,4 +37,9 @@ text-align: start;
 .service h6{
   margin: 13px 70% 15px 0;
 }
+@media(max-width:720px) {
+  .service{
+    width: calc( 86% /1);
+  }
 
+}
