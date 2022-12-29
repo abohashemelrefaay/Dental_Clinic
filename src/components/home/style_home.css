@@ -1,4 +1,8 @@
-
+.home{
+position: relative;
+margin: -60px 0 0 0;
+z-index: -5;
+}
 .home::after{
   content: "";
   width: 50%;
@@ -25,7 +29,7 @@
 
   display:grid;
   grid-template-columns: 50% 50%;
-  margin: 85px 0 40px 0;
+  margin: 150px 0 40px 0;
 }
 
 .home_text{
@@ -58,7 +62,7 @@ color: #01a998;
 }
 .home_image img{
   width: 350px;
-  height: 350px;
+  height: 400px;
   border-radius: 30px;
   border: 1.5px solid #bfc3c6;
 }

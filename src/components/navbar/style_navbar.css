@@ -1,11 +1,13 @@
-.navcover{
+.navbar .container{
   display: grid;
-  grid-template-columns: 15% 60% 15%;
+  grid-template-columns: 1fr 5fr 1fr;
 
 }
 .logo{
-  color: green;
+  color: #01a998;
   margin: auto;
+  font-size: 35px;
+  font-weight: bold;
 }
 .links{
   display:flex;
@@ -19,7 +21,7 @@ a{
   text-decoration: none;
 }
 a:hover{
-  color: green;
+  color: #01a998;
 }
 .login{
   display:flex;

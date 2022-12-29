@@ -5,7 +5,6 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="container">
-        <div className="navcover">
           <div className="logo">OralForm</div>
           <ul className="links">
             <li>
@@ -38,7 +37,6 @@ const Navbar = () => {
               value="Login as Dentist"
             />
           </form>
-        </div>
       </div>
     </div>
   );
