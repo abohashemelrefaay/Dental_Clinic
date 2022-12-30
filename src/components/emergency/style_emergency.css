@@ -1,0 +1,40 @@
+.emergency{
+
+  background-image: url(/public/images/emergency2.webp), url(/public/images/emergency.webp);
+  background-position: right , left ;
+  background-repeat: no-repeat;
+  background-size: 40% ,60%;
+
+} 
+.transparent{
+
+  background-image: linear-gradient(to right, #01a99866, #0f998b5c,#01a998,#01a998, #0f998bcb,#01a99864);;
+  
+}
+.emergency .cov_emergency {
+  text-align: center;
+}
+.emergency .cov_emergency h6{
+  color: #fff;
+  letter-spacing: 6px;
+  margin: 40px 0 -17px 0;
+}
+.emergency .cov_emergency h1{
+  color: #fff;
+  font-style: oblique;
+
+}
+.emergency .cov_emergency p{
+  color: #fff;
+
+}
+.emergency .cov_emergency button{
+  width: 152px;
+  height: 30px;
+  margin: 21px 3px 40px 0;
+  font-size: 20px;
+  background-color: #fff;
+  border-radius: 17px;
+  cursor: pointer;
+  border: 1px solid #0000001a;
+}

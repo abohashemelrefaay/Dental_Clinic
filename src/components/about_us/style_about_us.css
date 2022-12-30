@@ -1,27 +1,30 @@
+.about_us{
+  padding: 30px 0 20px 0;
+}
 .about_us_cover{
   display:grid;
   grid-template-rows: auto 10px 4fr;
 }
 
-.Dental_cleaner{
+.about_us .Dental_cleaner{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-.Dental_cleaner .cleaner img{
+.about_us  .Dental_cleaner .cleaner img{
   width: 35px;
   margin: 0px 0px -74px 0;
 }
-.Dental_cleaner .cleaner h6{
+.about_us .Dental_cleaner .cleaner h6{
   margin: 25px 41px -10px;
   
 }
-.Dental_cleaner .cleaner p{
+.about_us .Dental_cleaner .cleaner p{
   margin: 12px 0px 0px 40px;
   font-weight: bold;
 }
 
 
-hr{
+.about_us hr{
 width: 50%;
 border-radius: 50%;
 margin: 40px 0 0 246px;
@@ -29,21 +32,22 @@ margin: 40px 0 0 246px;
 
 
 
-.cov_text_image {
+.about_us .cov_text_image {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top:80px ;
   position: relative;
+  
 }
-.cov_text_image img{
+.about_us .cov_text_image img{
 width: 65%;
 margin-top: 30px;
 }
-.cov_image{
+.about_us .cov_image{
   text-align: center;
   
 }
-.cov_text_image .cov_image::after{
+.about_us .cov_text_image .cov_image::after{
   content: "";
   width: 15%;
   height: 50%;
@@ -55,57 +59,60 @@ margin-top: 30px;
   border: 25px solid ;
   border-color: #01a998 transparent transparent #01a998;
 }
-.cov_text_image .text h5{
+.about_us .cov_text_image .text h5{
 color: #01a998;
 }
-.cov_text_image .text p{
+.about_us .about_us .cov_text_image .text p{
 font-weight: 100;
 }
-.cov_text_image .features {
+.about_us .cov_text_image .features {
 display: grid;
 }
-.cov_text_image .features i {
+.about_us .cov_text_image .features i {
   color: #01a998;
   margin-right: 4px;
 }
 @media(max-width:720px) {
-  .Dental_cleaner {
+  .about_us .Dental_cleaner {
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr ;
   }
-  .Dental_cleaner .cleaner  {
+  .about_us  .Dental_cleaner .cleaner  {
   text-align: center;
 }
-.Dental_cleaner .cleaner h6 {
+.about_us .Dental_cleaner .cleaner h6 {
   margin: 79px 0 -10px 0;
 }
-.Dental_cleaner .cleaner p {
+.about_us .Dental_cleaner .cleaner p {
   margin: 12px 0px 0px 0;
 }
-hr {
+.about_us hr {
   margin: 40px 0 0 25%;
 }
-.cov_text_image {
+.about_us .cov_text_image {
   grid-template-rows: 250px 300px;
     grid-template-columns: 1fr ;
   padding-top: 87px;
 }
-.cov_text {
+.about_us .cov_text {
     height: max-content;
     text-align: center;
     margin-top: 20px;
   }
-  .cov_text_image .cov_image::after {
+  .cov_text_image {
+    height: 610px;
+  }
+  .about_us .cov_text_image .cov_image::after {
     height: 253px;
     width: 140px;
   }
   
-  .cov_text_image .features {
+  .about_us .cov_text_image .features {
     text-align: start;
     margin: 18px 0 0 60px;
     font-size: 12px;
   }
-  .cov_text_image  img {
+  .about_us .cov_text_image  img {
     width: 325px;
     
   }

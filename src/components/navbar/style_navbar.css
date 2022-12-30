@@ -8,8 +8,9 @@
 }
 
 .logo {
-  color: green;
+  color: #01a998;
   margin: auto;
+  font-weight: bold;
 }
 
 .links {
@@ -71,7 +72,7 @@ transition: .5s;
 }
 
 a:hover {
-  color: green;
+  color: #01a998;
 }
 
 .login {
@@ -136,8 +137,10 @@ a:hover {
     }
     a {
       color:#fff;
-      line-height:0px;
-      
+      line-height:15px;
+    }
+    a:hover {
+      color: #ffffff;
     }
 }
 @media(max-width:535px) {

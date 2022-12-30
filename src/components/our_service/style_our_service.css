@@ -2,44 +2,56 @@
 .services{
 text-align: center;
 background-color: #f4f8fb;
-padding-top: 20px;
+padding: 20px 0 30px 0;
 }
 .services h4{
 color: #01a998  ;
 }
-
+.cov_service{
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  gap: 15px;
+  justify-content: center;
+height: auto;
+}
 .service{
-  float: left;
-  width: calc( 86% /3);
-  text-align: end;
-  margin: 10px;
-  background-color: #fff;
-  border-radius: 12px;
-  height: 250px;
-  text-align: center;
+text-align: start;
+background-color: #fff;
+border-radius: 12px;
+padding: 15px 0 0px 20px;
+height: fit-content;
+
+
   
 }
 
 .service img{
   width: 30px;
-  margin: 20px 80% 0 0;
+
   
 }
 .service h3{
-  margin: 2px 0 0px -95px;
   width: 80%;
+  font-size: 15px;
 }
 .service p{
-  margin: 9px 0 0 38px;
-width: 85%;
-text-align: start;
+  width: 95%;
+  font-size: 12px;
+  max-height: 35px;
 }
 .service h6{
-  margin: 13px 70% 15px 0;
+  
+}
+@media(max-width:920px) {
+  .cov_service{
+    grid-template-columns: 40% 40%;
+  }
+
 }
 @media(max-width:720px) {
-  .service{
-    width: calc( 86% /1);
+  .cov_service{
+    grid-template-columns: auto;
+    grid-template-rows: auto ;
   }
 
 }
