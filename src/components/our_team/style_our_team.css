@@ -1,0 +1,100 @@
+.our_team{
+  padding: 20px 0 20px 0;
+}
+.our_team .cov_our_team{
+  display: grid;
+  grid-template-rows:120px 300px 50px ;
+  text-align: center;
+
+}
+.our_team .cov_our_team .team{
+  display: grid;
+  grid-template-columns:24% 1fr 1fr 1fr ;
+  gap: 10px;
+}
+
+.our_team .cov_our_team .team .Dr1 {
+  display: grid;
+  grid-template-columns: 1fr 15px ;
+  gap: 10px;
+}
+.our_team .cov_our_team .team .Dr1  img{
+width: 100%;
+height: 200px;
+border-radius: 15px;
+
+}
+.our_team .cov_our_team .team .Dr1 i{
+  height: 25px;
+
+
+}
+.our_team .cov_our_team .image_text{
+  text-align: start;
+
+
+}
+.our_team .cov_our_team .image_text h6{
+  margin: 5px 0 0 10px;
+   font-size: 20px;
+}
+.our_team .cov_our_team .image_text h6:nth-child(3){
+  margin: 5px 0 0 10px;
+   font-size: 18px;
+   color: rgba(0, 0, 0, 0.383);
+}
+.our_team .cov_our_team .image_text{
+  text-align: start;
+
+
+}
+.our_team hr{
+  width: .5px;
+  height: 30%;
+  background: rgba(0, 0, 0, 0.303);
+}
+.our_team .contact{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  background: aliceblue;
+  border-radius: 15px;
+  padding: 0 45px 5px 0;
+  margin: -6px 0 0 5%;
+
+}
+.our_team .contact a{
+text-decoration: none;
+color: #fff;
+
+}
+.our_team .contact button{
+
+  width: 200px;
+  height: 40px;
+  margin: 10px 3px auto;
+  background-color: #01a998;
+  border-radius: 17px;
+  border: 1px solid #0000001a;
+  cursor: pointer;
+}
+@media(max-width:790px){
+  .our_team .cov_our_team .team{
+display: block;
+    
+  }
+  .our_team .cov_our_team{
+    grid-template-rows:120px auto auto ;
+  
+  }
+  .our_team .contact{
+    display: block;
+    margin: 20px 0 0 5%;
+  
+  }
+  .our_team .cov_our_team .team .Dr1 {
+  margin:30px 0 0 0;
+  }
+
+}
+
+

@@ -135,5 +135,40 @@
       "h6": "Bank Staff"
     }
     
+  ],
+  "our_team":[
+    {
+      "image": "images/dr1.webp",
+      "h6_1": "Theresa Webb",
+      "h6_2": "Dental Surgery",
+      "link1": "https://www.facebook.com/",
+      "link2": "https://www.twitter.com",
+      "link3": "https://www.linkedin.com"
+    },
+    {
+      "image": "images/dr2.webp",
+      "h6_1": "Theresa Webb",
+      "h6_2": "Dental Surgery",
+      "link1": "https://www.facebook.com/",
+      "link2": "https://www.twitter.com",
+      "link3": "https://www.linkedin.com"
+    },
+    {
+      "image": "images/dr3.webp",
+      "h6_1": "Theresa Webb",
+      "h6_2": "Dental Surgery",
+      "link1": "https://www.facebook.com/",
+      "link2": "https://www.twitter.com",
+      "link3": "https://www.linkedin.com"
+    },
+    {
+      "image": "images/dr4.webp",
+      "h6_1": "Theresa Webb",
+      "h6_2": "Dental Surgery",
+      "link1": "https://www.facebook.com/",
+      "link2": "https://www.twitter.com",
+      "link3": "https://www.linkedin.com"
+    }
+
   ]
 }

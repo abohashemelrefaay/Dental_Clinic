@@ -8,6 +8,7 @@ import Emergency from './components/emergency/emergency';
 import Work from './components/navbar/works/Works';
 import Footer from './components/footer/footer';
 import Testimonials from './components/testmonials/testimonials';
+import OurTeam from './components/our_team/our_team';
 
 
 
@@ -21,6 +22,7 @@ const App = () => {
       <Emergency/>
       <Work/>
       <Testimonials/>
+      <OurTeam/>
       <Footer/>
       
       
