@@ -1,0 +1,113 @@
+.testimonials{
+  padding: 30px 0 30px 0;
+  background: #f4f8fb;
+  width: 100%;
+  overflow: hidden;
+}
+.testimonials .cov_testimonials{
+display: grid;
+grid-template-rows: 200px 320px 20px ;
+position: relative;
+}
+.testimonials .cov_testimonials .text{
+text-align: center;
+width: 70%;
+}
+.testimonials .testimonials_elements{
+display: grid;
+grid-template-columns: repeat(12,17%);
+grid-template-rows: 400px;
+transition: 2s;
+}
+.testimonials .moveacion1{
+  position: relative;
+right: 0%;
+}
+.testimonials .moveacion2{
+  position: relative;
+right: 84%;
+}
+.testimonials .moveacion3{
+  position: relative;
+right: 135%;
+}
+.testimonials .testimonials_elements .test{
+  background: #fff;
+  width: 95%;
+  height: 280px;
+  border-radius: 40px;
+  position: relative;
+}
+.testimonials .testimonials_elements .test i{ 
+  position: absolute;
+  left: 10%;
+  top: -20px;
+  width: 40px;
+  height: 40px;
+  background: #01a998;
+  text-align: center;
+  line-height: 45px;
+  font-size: 30px;
+  border-radius: 50%;
+  color: #fff;
+}
+.testimonials .testimonials_elements .test h5{ 
+  width: 100%;
+  margin: 27px 0 2px 10px;
+  font-size: 20px;
+  color: #ffe13e;
+}
+.testimonials .testimonials_elements .test p{ 
+  margin: 12px 0 0 10px;
+  padding: 5px;
+}
+.testimonials .testimonials_elements .image_text img{ 
+width: 50px;
+border-radius: 50%;
+margin: 20px 0 -50px 20px;
+}
+.testimonials .testimonials_elements .image_text h4{ 
+  margin: 0 0 0 28%;
+}
+.testimonials .testimonials_elements .image_text h6{ 
+  margin: 0 0 0 28%;
+}
+.testimonials .move{
+  display: grid;
+  grid-template-columns: 10px 10px 10px;
+  gap: 10px;
+  position: absolute;
+  top: 518px;
+  left: 40%;
+}
+.testimonials span{
+  width: 10px;
+  height: 10px;
+  background: #01a998;
+  margin: 0 0 0 8px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.testimonials span:hover{
+  background: #065f56;
+  margin: -2px 0 0 8px;
+
+}
+.testimonials .active1{
+  background: #065f56;
+  margin: -2px 0 0 8px;
+}
+.testimonials .active2{
+  background: #065f56;
+  margin: -2px 0 0 8px;
+}
+.testimonials .active3{
+  background: #065f56;
+  margin: -2px 0 0 8px;
+}
+@media(max-width:780px){
+
+}
+
+
+

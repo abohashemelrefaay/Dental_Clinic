@@ -1,0 +1,68 @@
+.footer{
+  padding: 20px;
+  background: #062f2b;
+}
+
+.footer .cov_footer{
+  display: grid;
+  grid-template-rows:auto 40px;
+  gap: 10px;
+}
+.footer .myinfo{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  color: #fff;
+}
+.footer .myinfo a{
+  color: #fff;
+
+}
+.footer .info{
+display: grid;
+}
+.footer .info:nth-child(1) h1{
+  font-weight: bold;
+}
+.footer .info button{
+  width: 200px;
+  height: 40px;
+  margin: 10px 3px auto;
+  color: #fff;
+  background-color: #01a998;
+  border-radius: 17px;
+  border: 1px solid #0000001a;
+  cursor: pointer;
+}
+
+
+
+.footer .myinformation2{
+  
+  border-top: 2px solid #01a9986c ;
+  display: flex;
+}
+.footer .myinformation2 div{
+  display: flex;
+  margin: 11px 0 0 73%;
+}
+.footer .myinformation2 h6{
+  margin: 18px 0 0 30px;
+  color:#fff;
+}
+.footer .myinformation2 div i{
+  width: 25px;
+  height: 25px;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  margin: 0 0 0 5px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 25px;
+}
+@media(max-width:800px){
+  .footer .myinfo{
+    display: block;
+  }
+}
+
